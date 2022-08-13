@@ -8,6 +8,9 @@ djangorestframework = "*"
 django = "*"
 
 [dev-packages]
+mypy = "*"
+django-stubs = {extras = ["compatible-mypy"], version = "*"}
+djangorestframework-stubs = {extras = ["compatible-mypy"], version = "*"}
 
 [requires]
 python_version = "3.9"
