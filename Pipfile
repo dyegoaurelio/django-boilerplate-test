@@ -11,6 +11,8 @@ django = "*"
 mypy = "*"
 django-stubs = {extras = ["compatible-mypy"], version = "*"}
 djangorestframework-stubs = {extras = ["compatible-mypy"], version = "*"}
+pytest = "*"
+pytest-django = "*"
 
 [requires]
 python_version = "3.9"

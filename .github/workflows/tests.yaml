@@ -25,3 +25,5 @@ jobs:
         pipenv install -d
     - name: Test types with mypy
       run: pipenv run mypy .
+    - name: Run tests with pytest
+      run: pipenv run pytest
